@@ -66,7 +66,7 @@ class HistoryMap extends Component {
         {
             this.state.userPlaces[0] ? this.state.userPlaces.map((data) => {
               return(
-                <Marker style={styles.marker} coordinate={{latitude: data.latitude, longitude: data.longitude}}>
+                <Marker style={styles.marker} coordinate={{latitude: data.latitude, longitude: data.longitude}} key={data.id.toString()}>
                   <Image source={require('../../assets/Animals/bee.png')} style={{width: 32, height: 32 }} />
                 </Marker>
               );
