@@ -22,9 +22,9 @@ class App extends Component {
 
     /*
     firebase.database().ref("animals/").push({
-        latitude: 37.11159818,
-        longitude: -121.01158906,
-        type: "Bee"
+        latitude: 37.01812457,
+        longitude: -120.85675046,
+        type: "Bird"
     });*/
   }
 
