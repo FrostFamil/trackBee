@@ -4,10 +4,12 @@ import { createBottomTabNavigator } from 'react-navigation-tabs'
 
 import HistoryMap from "./HistoryMap";
 import LiveMap from "./LiveMap";
+import Prediction from './Prediction';
 
 const Navigator = createBottomTabNavigator({
   historyMap: { screen: HistoryMap },
-  liveMap: { screen: LiveMap }
+  liveMap: { screen: LiveMap },
+  prediction: { screen: Prediction }
 },{
   tabBarPosition: 'bottom',
   swipeEnabled: false,
